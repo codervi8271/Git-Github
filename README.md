@@ -1,8 +1,14 @@
 # Git-Github
 Git&amp;Github Tutorial
 
- Step1: first Create a New Repository in Github.
- Step2: Copy the Repo link and Go to Vs Code
- Step3: write On terminal Git clone paste <-link>
- Step4: After That Write cd file name
- step5:
+ You want to clone an empty GitHub repo and start coding
+From the GitHub page, copy the repo URL, then:
+
+bash
+----------------
+git clone https://github.com/your-username/my-project.git
+cd my-project
+# Add files here
+git add .
+git commit -m "Initial commit"
+git push
